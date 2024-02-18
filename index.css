@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;padding: 0;
+}
+header{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    text-transform: capitalize;
+    font: 15px arial, san-serif;
+    text-align: center;
+    padding: 16px 16px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    float: left;
+    margin-right: 10%;margin-top: 8px;
+}
+#amazon{
+    color: orange;
+    text-transform: none;
+   
+}
+#account,#mycart,#contact{
+    color: white;cursor: pointer;
+}
+div{
+    float: right;
+    margin-right: 30px;;
+    /* display: inline; */
+    
+}
+#search{
+    height: 20px;padding: 5px;margin: 0;
+    border-radius: 3%;
+}
+button{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 8px;
+}
+@media screen and (max-width: 900px) {
+header a, .searchbar {
+float: none;
+display: block;
+text-align: left;
+width: 100%;
+margin: 0;
+padding: 14px;
+}
+}
